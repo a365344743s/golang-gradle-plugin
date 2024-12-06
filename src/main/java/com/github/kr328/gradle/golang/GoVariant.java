@@ -76,7 +76,7 @@ public class GoVariant implements Serializable {
                 current = Windows;
             } else if (osName.contains("linux")) {
                 current = Linux;
-            } else if (osName.contains("macos") || osName.contains("osx") || osName.contains("darwin")) {
+            } else if (osName.contains("mac") || osName.contains("os x") || osName.contains("darwin")) {
                 current = Darwin;
             } else {
                 current = Linux;
